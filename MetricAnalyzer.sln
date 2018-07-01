@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnalyzer", "Analyzer1\Analyzer1\MetricsAnalyzer.csproj", "{7D4372FB-0C78-4C49-8772-8039B8F0B3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnalyzer.Vsix", "Analyzer1\Analyzer1.Vsix\MetricsAnalyzer.Vsix.csproj", "{BE641EAC-D539-4932-A3CA-7ED6A5D187EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAnalyzer", "TestAnalyzer\TestAnalyzer.csproj", "{767479DC-6269-4767-8142-80740CF4F40F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{2F66CC5D-BDD7-4E8A-884B-3377501188FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D4372FB-0C78-4C49-8772-8039B8F0B3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4372FB-0C78-4C49-8772-8039B8F0B3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4372FB-0C78-4C49-8772-8039B8F0B3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4372FB-0C78-4C49-8772-8039B8F0B3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE641EAC-D539-4932-A3CA-7ED6A5D187EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE641EAC-D539-4932-A3CA-7ED6A5D187EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE641EAC-D539-4932-A3CA-7ED6A5D187EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE641EAC-D539-4932-A3CA-7ED6A5D187EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767479DC-6269-4767-8142-80740CF4F40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767479DC-6269-4767-8142-80740CF4F40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767479DC-6269-4767-8142-80740CF4F40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767479DC-6269-4767-8142-80740CF4F40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F66CC5D-BDD7-4E8A-884B-3377501188FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F66CC5D-BDD7-4E8A-884B-3377501188FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F66CC5D-BDD7-4E8A-884B-3377501188FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F66CC5D-BDD7-4E8A-884B-3377501188FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CDFFA2B-EDD5-44CA-B30C-3D58B8A78F1B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://devsrv/projects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Analyzer1\\Analyzer1\\MetricsAnalyzer.csproj
+		SccProjectName1 = Analyzer1/Analyzer1
+		SccLocalPath1 = Analyzer1\\Analyzer1
+		SccProjectUniqueName2 = Analyzer1\\Analyzer1.Vsix\\MetricsAnalyzer.Vsix.csproj
+		SccProjectName2 = Analyzer1/Analyzer1.Vsix
+		SccLocalPath2 = Analyzer1\\Analyzer1.Vsix
+		SccProjectUniqueName3 = TestAnalyzer\\TestAnalyzer.csproj
+		SccProjectName3 = TestAnalyzer
+		SccLocalPath3 = TestAnalyzer
+		SccProjectUniqueName4 = Plugins\\Plugins.csproj
+		SccProjectName4 = Plugins
+		SccLocalPath4 = Plugins
+	EndGlobalSection
+EndGlobal
